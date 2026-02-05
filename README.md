@@ -1,0 +1,2 @@
+# astrbot_plugin_BizCanvas
+随手写的自用兼容画图模型

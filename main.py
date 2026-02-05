@@ -14,7 +14,7 @@ from astrbot.api import AstrBotConfig, logger
 from astrbot.api.event import AstrMessageEvent, filter
 from astrbot.api.star import Context, Star, register
 
-@register("AstrBot_Plugin_Biz_Canvas", "长安某", "各种逆向生图自用", "1.9.4_FINAL_CLEAN")
+@register("AstrBot_Plugin_Biz_Canvas", "长安某", "各种逆向生图自用", "1.9.4")
 class GeminiBizCanvas(Star):
     def __init__(self, context: Context, config: AstrBotConfig):
         super().__init__(context)

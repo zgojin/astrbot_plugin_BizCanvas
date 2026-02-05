@@ -13,14 +13,14 @@
 
 * **智能生图**: 支持文生图 (Draw) 与图生图 (Edit)，自动适配 OpenAI Chat 与 Responses 协议。
 * **风格预设**: 内置手办化 (Figurine)、真人化 (Cosplay)、宝可梦化 (Pokemon) 三种专属风格转换指令。
-* **网络优化**: 自动清洗网关 URL 路径，集成浏览器 UA 伪装与 SSL 优化，有效解决 CDN (如 Cloudflare/EdgeOne) 524/554 超时问题。
+* **网络优化**: 自动清洗网关 URL 路径。
 * **智能解析**: 增强型图片提取逻辑，支持从非标准 JSON 字段、Markdown 及 HTML 中提取图片链接。
 
 ## 配置说明
 
 * **gateway_url**: API 网关地址。支持填写 IP 或域名，插件会自动修正重复的 /v1 后缀。
 * **api_route_type**: API 路由格式。标准 NewAPI/OneAPI 请选择 `chat_completions`。
-* **model_name**: 模型名称，建议使用 `gemini-2.0-flash-exp` 或 `gemini-3-pro`。
+* **model_name**: 模型名称，建议使用 `gemini-3.0-flash` 或 `gemini-3-pro`。
 * **image_config**: 可调整生成图片的画幅比例 (Ratio) 和分辨率 (Size)。
 
 ## 使用方法

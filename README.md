@@ -1,9 +1,9 @@
 # astrbot_plugin_BizCanvas
 随手写的自用兼容画图模型
-
-
 ### 插件和以往插件重复，不再通过官方发布，
 ### 以下内容ai生成
+
+
 
 # AstrBot Plugin Biz Canvas
 

@@ -11,7 +11,7 @@
 
 ## 功能特性
 
-* **智能生图**: 支持文生图 (Draw) 与图生图 (Edit)，自动适配 OpenAI Chat 与 Google Responses 协议。
+* **智能生图**: 支持文生图 (Draw) 与图生图 (Edit)，自动适配 OpenAI Chat 与 Responses 协议。
 * **风格预设**: 内置手办化 (Figurine)、真人化 (Cosplay)、宝可梦化 (Pokemon) 三种专属风格转换指令。
 * **网络优化**: 自动清洗网关 URL 路径，集成浏览器 UA 伪装与 SSL 优化，有效解决 CDN (如 Cloudflare/EdgeOne) 524/554 超时问题。
 * **智能解析**: 增强型图片提取逻辑，支持从非标准 JSON 字段、Markdown 及 HTML 中提取图片链接。
